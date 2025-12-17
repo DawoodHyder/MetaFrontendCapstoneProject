@@ -1,0 +1,140 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #f4ce14;
+}
+
+/* Logo */
+header img {
+  height: 48px;
+}
+
+/* Navigation */
+nav {
+  background-color: #495e57;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 12px;
+}
+
+nav li {
+  margin: 0 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f4ce14;
+}
+
+/* Call To Action */
+.cta {
+  background-color: #495e57;
+  color: white;
+  padding: 48px;
+  text-align: center;
+}
+
+.cta h1 {
+  font-size: 2.5rem;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.cta button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Markazi Text", serif;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 16px;
+}
+
+span {
+  font-size: 0.875rem;
+  color: #495e57;
+}
+
+
+/* Main Layout (Grid) */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding: 32px;
+}
+
+/* Section Cards */
+section {
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: #495e57;
+  color: white;
+  text-align: center;
+}
