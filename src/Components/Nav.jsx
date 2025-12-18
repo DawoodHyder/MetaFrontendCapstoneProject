@@ -1,19 +1,20 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
+
         <li>
-          <a href="/menu">Menu</a>
+          <Link to="/booking">Reserve a Table</Link>
         </li>
-        <li>
-          <a href="/reserve">Reserve a Table</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
+
+        {/* Optional links (only keep if routes exist) */}
+        {/* <li><Link to="/menu">Menu</Link></li> */}
+        {/* <li><Link to="/about">About</Link></li> */}
       </ul>
     </nav>
   );

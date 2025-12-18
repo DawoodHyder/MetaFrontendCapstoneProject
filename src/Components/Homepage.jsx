@@ -1,8 +1,7 @@
-import CallToAction from "./CallToAction";
-import Specials from "./Specials";
-import CustomersSay from "./CustomersSay";
-import Chicago from "./Chicago";
-import Footer from "./Footer"
+import CallToAction from "./CallToAction.jsx";
+import Specials from "./Specials.jsx";
+import CustomersSay from "./CustomersSay.jsx";
+import Chicago from "./Chicago.jsx";
 
 function HomePage() {
   return (
@@ -11,7 +10,6 @@ function HomePage() {
       <Specials />
       <CustomersSay />
       <Chicago />
-      <Footer />
     </main>
   );
 }
